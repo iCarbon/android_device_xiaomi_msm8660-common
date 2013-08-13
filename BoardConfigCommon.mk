@@ -17,7 +17,6 @@ TARGET_SPECIFIC_HEADER_PATH := device/xiaomi/msm8660-common/include
 
 # CPU
 TARGET_CPU_VARIANT := scorpion
-TARGET_ARCH_VARIANT_CPU := cortex-a8
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
