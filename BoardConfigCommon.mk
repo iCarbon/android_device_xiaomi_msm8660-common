@@ -16,7 +16,7 @@ BOARD_VENDOR := xiaomi
 TARGET_SPECIFIC_HEADER_PATH := device/xiaomi/msm8660-common/include
 
 # CPU
-TARGET_CPU_VARIANT := scorpion
+TARGET_CPU_VARIANT := generic
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
@@ -84,4 +84,7 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 50000
 # Webkit
 ENABLE_WEBGL := true
 TARGET_FORCE_CPU_UPLOAD := true
+
+# Recovery
+USE_SET_METADATA := false
 
